@@ -4,8 +4,9 @@
 <p> <%= startingContent %> </p>
 
 <% postList.forEach(function(post){ %>
-  <h1>   <%= post.title %> </h1>
-  <p>  <%= post.body %> </p>
+  <h1> <%= post.title %> </h1>
+  <p>  <%= post.body.substring(0,100) + " ... "%> </p>
+  <a href="/posts/<%= post.title %>">Read more</a>
 <% });%>
 
 <%- include('partials/footer'); -%>
