@@ -1,11 +1,11 @@
 # TodoList App
 
-This is a simple blog application. The front-end and main back end are hosted on Heroku while the mongoDB is hosted on mongoDB Atlas.
+This is a simple blog application.
 
 This application was built with CSS3,HTML5,Javascript, EJS, MongoDB, Mongoose, Lodash, Express.js, Node.js,.
 MongoDB is hosted on MongoDB Atlas, and the application is hosted on Heroku.
 
-![alt text](https://github.com/CeroDosUno/personalBlog/blob/master/personalblog.png)
+![alt text](https://github.com/CeroDosUno/todolistapp/blob/master/WebView.png)
 
 ## Built With
 Front-End
